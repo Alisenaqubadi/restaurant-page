@@ -18,8 +18,19 @@ function Writebyid(container, text) {
     });
 }
 
+function Create_img(path ,container, className="", elementId=""){
+    const img = document.createElement("img");
+    img.src = path;
+    const Container_value = document.querySelector(container);
+    if (className !== ""){img.className = className;}
+    if (elementId !== ""){img.id = elementId;}
+    Container_value.appendChild(img);
+}
+
 
 export {
     Create,
     Write,
+    Writebyid,
+    Create_img,
 }

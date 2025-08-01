@@ -54,7 +54,7 @@ button:hover {
     flex: 7;
 }
 
-#Home{
+#Home {
     display: flex;
     flex-direction: column;
     height: 90%;
@@ -63,6 +63,31 @@ button:hover {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background: var(--div-color);
+}
+
+#Menu {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 10% 10% 10%;
+    border: 2px solid #e6cfc2;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: var(--div-color);
+    padding: 5%;
+    width: 666px;
+}
+
+#Contact {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 10% 10% 10%;
+    border: 2px solid #e6cfc2;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: var(--div-color);
+    padding: 5%;
+    height: 80%;
+    width: 666px;
 }
 
 #content div:hover {
